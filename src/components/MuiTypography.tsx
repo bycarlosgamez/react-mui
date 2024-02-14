@@ -1,8 +1,8 @@
-import { Typography } from '@mui/material';
+import { Stack, Typography } from '@mui/material';
 
 const MuiTypography = () => {
   return (
-    <>
+    <Stack spacing={2}>
       <Typography variant='h1'>h1 Heading</Typography>
       <Typography variant='h2'>h2 Heading</Typography>
       <Typography variant='h3'>h3 Heading</Typography>
@@ -23,7 +23,7 @@ const MuiTypography = () => {
       <Typography variant='h4' component='h1'>
         h4 Heading as h1 component{' '}
       </Typography>
-    </>
+    </Stack>
   );
 };
 
