@@ -1,10 +1,17 @@
-import { Stack, Button, IconButton, ButtonGroup } from '@mui/material';
+import {
+  Stack,
+  Button,
+  IconButton,
+  ButtonGroup,
+  Typography,
+} from '@mui/material';
 import SendIcon from '@mui/icons-material/Send';
 
 const MuiButton = () => {
   return (
     // display of Stack default is flex
     <Stack spacing={4}>
+      <Typography variant='h2'>Buttons</Typography>
       <Stack display='block' spacing={2} direction='row'>
         <Button variant='text' href='https://google.com'>
           Text
